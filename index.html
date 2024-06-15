@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ScriptWings Airlines</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <!--Header-->
 <body>
@@ -18,59 +22,55 @@
                 <li><a href="pages/checkin.html">Check In</a></li>
                 <li><a href="pages/vip.html">VIP</a></li>
             </ul>
-            <search>
+            <search class="header-buscar">
                 <form action="/buscar" method="GET">
-                    <input type="text" name="q" placeholder="Buscar vuelos">
-                    <button type="submit">Buscar</button>
+                    <input type="text" name="q" placeholder="Buscar vuelos" size="30">
+                    <button type="submit" size="30">Buscar </button>
                 </form>
             </search>
         </nav>
     </header>
     <main>
         <!--Section Publicidad-->
-        <section>
-            <h2>
-                Lorem
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos molestias veniam, maiores at facere porro numquam tempora hic fugiat modi quod, magnam accusamus ipsam dolorum libero aliquam totam fuga molestiae?
-            </p>
-            <button>
-                ¡ A VOLAR !
-            </button>
+        <section class="seccion-image">
+            <div class="seccion-publicidad">
+            </div>
         </section>
         <!--Section Search-->
-        <section>
-            <div>
-                <h2>¿A dónde quieres volar?</h2>
+        <section class="sea">
+            
+            <div class="search">
+            <h2>¿A dónde quieres volar?</h2>
+            <div class="search-1">
                 <div>
-                    <select>
+                    <select  class="ida">
                         <option value="1">Ida</option>
                         <option value="2">Ida y vuelta</option>
                         <option value="3">Multi-Ciudad</option>
                     </select>
                 </div>
                 <div>
-                    <select>
+                    <select class="vuelta">
                         <option value="4">Adulto</option>
                         <option value="5">Niño</option>
                         <option value="6">Infante</option>
                     </select>
                 </div>
-                <div>
+                <div class="millas">
                     <label for="reservar">Reservar con millas</label>
                     <input type="checkbox" name="Reservar con millas" id="reservar">
                 </div>
             </div>
-            <div>
+            <div class="search-2">
                 <input type="text" name="From" id="From" placeholder="Ingresa el origen">
                 <input type="text" name="To" id="To" placeholder="Ingresa el destino">
                 <input type="date" name="fecha" id="fecha" placeholder="Ingresa la fecha">
                 <button type="submit">Buscar vuelos</button>
             </div>
+        </div>
         </section>
         <!--Sección publicidad 1-->
-        <section>
+        <section class="tres">
             <div>
                 <h2>Nueva York</h2>
                 <img src="./img/pexels-lukas-rodriguez-1845331-3559235.jpg" alt="">
@@ -138,5 +138,6 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

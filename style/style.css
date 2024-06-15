@@ -1,0 +1,194 @@
+/*Basico*/
+
+* {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+
+
+li a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    
+}
+
+h1 a {
+    font-size: 5vh;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    align-items: baseline;
+    
+}
+
+ul, ol {
+    list-style: none;
+}
+
+
+button {
+    display: inline-block;
+            padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+            text-align: center;
+            text-decoration: none;
+            background-color: #469efc; /* Color de fondo del botón */
+            color: white; /* Color del texto */
+            border: none; /* Quita el borde */
+            cursor: pointer;
+            font-size: 16px; /* Tamaño de fuente */
+            width: 150px; /* Ancho fijo del botón */
+            border-radius: 15px;
+            
+     }
+
+
+     button:hover {
+        background-color: #0056b3; /* Nuevo color de fondo al pasar el cursor */
+        color: #ffffff; /* Nuevo color de texto al pasar el cursor */
+        
+    }
+
+
+/*Header*/
+header nav {
+    background-color: #00C8F8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 1%;
+    text-align: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+header nav ul{
+    display: flex;
+    gap: 2%;
+    font-size: 3vh;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0;
+}
+
+
+.header-buscar form{
+    font-size: 4vh;
+}
+
+
+/*Section publicidad*/
+
+.seccion-image{
+    height: 100vh;
+    background-image: url('../img/pexels-francesco-ungaro-1525041.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    position: relative;
+}
+.seccion-publicidad {
+    background-image: url(../img/pexels-francesco-ungaro-1525041.jpg);
+    background-size: cover;
+    display: flex;
+    padding: 6%;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    content: '';
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+
+
+.seccion-publicidad h3{
+    font-size: 6vh;
+}
+
+
+
+.seccion-publicidad h2{
+    font-size: 3vh;
+}
+
+.seccion-publicidad p{
+    font-size: 2vh;
+}
+
+
+/*Section search*/
+
+.search{
+    margin-right: 4%;
+    margin-left: 4%;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+    bottom: 10vh;
+    background-color: white;
+    padding: 3vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+.search-1 {
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    
+    
+}
+
+.search-2 {
+    display: flex;
+    justify-content: center;
+    gap: 25vh;
+    
+}
+
+
+.ida {
+    font-size: 2.5vh;
+    
+    
+}
+
+.vuelta{
+    font-size: 2.5vh;
+}
+
+.millas {
+    font-size: 2.5vh;
+}
+
+.sea{
+    
+}
+
+/*Seccion 3*/
+
+.tres {
+    
+}
+
+
