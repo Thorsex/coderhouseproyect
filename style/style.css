@@ -7,7 +7,19 @@
     font-style: normal;
     margin : 0;
     padding : 0;
-    box-sizing : border-box;
+    box-sizing : border-box;    
+}
+
+
+
+
+h5{
+    font-size: 20px;
+}
+
+
+h4{
+    font-size: 20px;
 }
 
 
@@ -20,7 +32,7 @@ li a{
 }
 
 h1 a {
-    font-size: 5vh;
+    font-size: 38px;
     margin: 0;
     text-decoration: none;
     color: white;
@@ -38,7 +50,7 @@ button {
             padding: 10px 20px; /* Ajusta el relleno según sea necesario */
             text-align: center;
             text-decoration: none;
-            background-color: #469efc; /* Color de fondo del botón */
+            background-color: #00C8F8; /* Color de fondo del botón */
             color: white; /* Color del texto */
             border: none; /* Quita el borde */
             cursor: pointer;
@@ -50,7 +62,7 @@ button {
 
 
      button:hover {
-        background-color: #0056b3; /* Nuevo color de fondo al pasar el cursor */
+        background-color: #ffca28; /* Nuevo color de fondo al pasar el cursor */
         color: #ffffff; /* Nuevo color de texto al pasar el cursor */
         
     }
@@ -58,28 +70,30 @@ button {
 
 /*Header*/
 header nav {
-    background-color: #00C8F8;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #004557;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 1%;
     text-align: center;
     justify-content: space-between;
-    height: 15vh;
+    border-style: solid;
+    border: blue;
+    padding-inline: 50px
 }
 
 header nav ul{
     display: flex;
-    gap: 2%;
-    font-size: 3vh;
+    gap: 30px;
+    font-size: 20px;
     justify-content: space-between;
-    align-items: baseline;
+    text-align: center;
     margin-bottom: 0;
 }
 
 
-.header-buscar form{
-    font-size: 4vh;
+.header-buscar{
+    font-size: 10px
 }
 
 
@@ -103,7 +117,7 @@ header nav ul{
     padding: 6%;
     height: 100vh;
     width: 100%;
-    color: white;
+    color: #00C8F8;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -120,17 +134,17 @@ header nav ul{
 
 
 .seccion-publicidad h3{
-    font-size: 6vh;
+    font-size: 100px;
 }
 
 
 
 .seccion-publicidad h2{
-    font-size: 3vh;
+    font-size: 70px;
 }
 
 .seccion-publicidad p{
-    font-size: 2vh;
+    font-size: 50px;
 }
 
 
@@ -143,52 +157,666 @@ header nav ul{
     border-radius: 5px;
     position: relative;
     bottom: 10vh;
-    background-color: white;
+    background-color: #005064;
     padding: 3vh;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #00C8F8;
+    color: white;
+    align-items: center;
     
 }
 
 
 
 .search-1 {
-    display: flex;
-    justify-content: center;
-    gap: 30%;
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    
     
     
 }
 
 .search-2 {
     display: flex;
-    justify-content: center;
-    gap: 25vh;
-    
+    justify-content: center; 
+    width: 100%;
+    align-items: center;
 }
 
 
+.search-2 input{
+    width: 100%;
+    height: 60px;
+}
+
+  
+  
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 50px;
+    color: white;
+    gap: 50PX;
+    
+    
+}
+.search-box-item{
+    flex-shrink: 0;
+  border-width: 0;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-bottom-width: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: auto;
+  border-right-width: thin;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  border-color: #CCCCCB;
+  height: 40px;
+  margin: 0 3.5px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
 .ida {
     font-size: 2.5vh;
+    width: 43.7vw;
+    height: 50px;
+    background-color: white;
     
     
 }
 
 .vuelta{
+
     font-size: 2.5vh;
+    width: 43.7vw;
+    height: 50px;
+    background-color: white;
 }
 
-.millas {
-    font-size: 2.5vh;
-}
+
+
+
 
 .sea{
+    background-color: #005064;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    color: #00C8F8;
     
+}
+
+.search-box div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+.search-box div a{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+    
+}
+.search-box div a:hover {
+    background-color: #027ed1; 
+        color: #ffffff;
+        border-radius: 10px;
+        border-style: solid;
+}
+
+
+.bi-star-fill{
+    color: yellow;
+    font-size: 20px;
+}
+
+.bi-suitcase2-fill{
+    color: crimson;
+    font-size: 20px;
+}
+
+.bi-airplane-fill{
+    color: #00C8F8;
+    font-size: 20px;
 }
 
 /*Seccion 3*/
 
-.tres {
+.publi-one{
+    height: auto;
+    width: 100%
+}
+
+.publi-one img{
+    
+    width: 100%;
+}
+
+.tres{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    
     
 }
 
+.first-item{
+    grid-column: 1/3;
+    border-style: solid;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    border-radius: 14px;
+    border-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.second-item{
+    grid-column: 2/4;
+    border-style: solid;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    border-radius: 14px;
+    border-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.third-item{
+    border-style: solid;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    border-radius: 14px;
+    border-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.fourth-item{
+    border-style: solid;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    border-radius: 14px;
+    border-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.publi-one{
+    background-color: #005064;
+    color: white; 
+    padding-inline: 13%;
+    padding-block: 13%;
+    
+    
+}
+
+
+.tres div img{
+    border-radius: 13px;
+}
+
+.mover-h2{
+    
+}
+
+
+/*Iframe*/
+.iframe{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: #005064;
+    
+}
+
+.iframe-text{
+    grid-column: 1/4;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    background-color: #ffffff;
+    margin-inline: 100px;
+}
+
+
+.iframe-map{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+/*Section contact*/
+
+
+.contact{
+    padding-inline: 10%;
+    padding-block: 10vh;
+    background-color: #005064;
+    border-style: solid;
+    border-color: grey;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    border-color: grey;
+}
+
+.img-contact img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.box-contact{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns:  1fr;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: #004557;
+    text-align: center;
+}
+
+
+
+.form-contact{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 3px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+
+.form-contact input ,.form-contact textarea{
+    height: 60px;
+    width: 100%;
+
+}
+.form-contact button{
+    align-items: center;
+}
+ 
+
+/*Footer*/
+
+footer{
+    background-color: #00C8F8;
+    color: white;
+}
+footer div{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+/*My Flight*/
+
+.main-myflight{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #005064;
+  background-image: linear-gradient(to bottom, #005064, #027ed1);
+    border-style: solid;
+    border-color: grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: white;
+    gap: 20px;
+
+}
+
+.input-myflight{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.input-myflight div{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+
+}
+
+.text-myflight{
+    
+}
+
+
+/*VIP*/
+
+.main-vip{
+    padding: 40px;
+    background-color: #005064;
+    background-image: linear-gradient(to bottom, #005064, #238ed6);
+    color: white;
+    text-align: center;
+    
+    border-style: solid;
+    border-color: grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    justify-content: center;
+
+}
+
+
+
+.first-div-vip{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    gap: 50px;
+}
+
+.first-div-vip div img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.first-div-vip div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+
+.vip-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    background-color: initial;
+    color: initial;
+    border: initial;
+    padding: initial;
+    display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ffca28;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+
+.vip-button:hover {
+    background-color: #fce08e;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .vip-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+.first-vip-text{
+    
+}
+
+
+
+/*VIP FORMULARIO*/
+
+.vipformulario{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding:10px;
+    min-height: 80vh;
+    background-color: #005064;
+    background-image: linear-gradient(to bottom, #005064, #238ed6);
+    color: white;
+}
+
+.vipformulario div{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 30px;
+    width: 100%;
+    
+}
+
+.formulario-des div{
+    width: 100%;
+    gap: initial;
+}
+
+
+
+/*Mediaqueries*/
+
+@media (max-width:1160px){
+
+.iframe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.iframe-map{
+    height: 300;
+}
+}
+
+@media (max-width:804px){
+    header nav {
+        background-color: #004557;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1%;
+        text-align: center;
+        
+        border-style: solid;
+        border: blue;
+        padding-inline: 50px
+    }
+    .tres{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 70px;
+        color: white;
+        gap: 50PX;
+    }
+    .search-box-item{
+        display: none;
+    }
+    .iframe-text{
+        margin-inline: 0;
+    }
+
+    .main-myflight{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-myflight{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input-myflight div{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+
+    .first-div-vip{
+        display:flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .first-div-vip div img{
+        height: 400px;
+        object-fit: cover;
+         }
+        
+    
+         .vipformulario{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding:10px;
+            min-height: 80vh;
+            background-color: #005064;
+            background-image: linear-gradient(to bottom, #005064, #238ed6);
+            color: white;
+        }
+        
+        .vipformulario div{
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline;
+            gap: 30px;
+            width: 100%;
+            
+        }
+        
+        .formulario-des div{
+            width: 100%;
+            gap: initial;
+        }
+        
+
+}
+
+@media (max-width:674px){
+    .search{
+        margin-right: 4%;
+        margin-left: 4%;
+        justify-content: center;
+        border-radius: 5px;
+        position: relative;
+        bottom: 10vh;
+        background-color: white;
+        padding: 3vh;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        background-color: #00C8F8;
+        color: white;
+        align-items: center;
+         
+        
+    }
+    
+    .ida{
+        width: 100%;
+    }
+
+    .vuelta{
+        width: 100%;
+    }
+    .millas{
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    .search-1 {
+        display: flex;
+        flex-direction: column;
+
+        
+        
+    }
+    
+    .search-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-contact img{
+        display: none;
+    }
+    .box-contact{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width:568px){
+    .first-iframe-video{
+        width: 400;
+    }
+    
+    footer div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+@media (max-width:470px){
+    header nav h1{
+        display:none;
+    }
+    header nav{
+        padding: 0;
+        padding-inline: 0;
+        gap: 1px;
+    }
+    .millas{
+        font-size: 2.4vh;
+    }
+}
 
