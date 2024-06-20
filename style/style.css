@@ -10,7 +10,13 @@
     box-sizing : border-box;    
 }
 
+input{
+    height: 50px;
+}
 
+select{
+    height: 50px;
+}
 
 
 h5{
@@ -391,9 +397,9 @@ header nav ul{
 
 /*Iframe*/
 .iframe{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-align: center;
     gap: 50px;
     padding: 50px;
@@ -402,7 +408,7 @@ header nav ul{
 }
 
 .iframe-text{
-    grid-column: 1/4;
+    
     border-style: solid;
     border-radius: 15px;
     border-color: white;
@@ -412,8 +418,18 @@ header nav ul{
 
 
 .iframe-map{
-    grid-column: 2/4;
-    grid-row: 2/4;
+    height: 400px;
+}
+
+.first-iframe-video{
+    height: 400px;
+    
+
+}
+
+.second-iframe-video{
+    height: 400px;
+
 }
 
 /*Section contact*/
@@ -635,9 +651,12 @@ footer div{
 
 .vipformulario{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     gap: 40px;
-    padding:10px;
+    padding:30px;
     min-height: 80vh;
     background-color: #005064;
     background-image: linear-gradient(to bottom, #005064, #238ed6);
@@ -658,7 +677,12 @@ footer div{
     gap: initial;
 }
 
-
+.col-122{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 /*Mediaqueries*/
 
