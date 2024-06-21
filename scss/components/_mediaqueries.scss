@@ -1,0 +1,216 @@
+@media (max-width:804px){
+    .sitios{
+        .sitios-div{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .nav {
+        
+        background-color: #004557;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1%;
+        text-align: center;
+        border-style: solid;
+        border: blue;
+        padding-inline: 50px
+    }
+
+    .publicidad-div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search-box{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    color: white;
+    gap: 50PX;
+     }
+    .section-search{
+        text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+    }
+
+    .search-box-item{ 
+        display: none ;
+    }
+    .iframe{
+        .iframe-text{
+            margin-inline: 0px;
+        }
+    }
+
+    .main-myflight {
+        display: flex ;
+        flex-direction: column ;
+    }
+    .input-myflight {
+        display: flex ;
+        flex-direction: column ;
+    }
+    
+    .input-myflight div {
+        display: flex ;
+        flex-direction: column ;
+    
+    }
+
+
+    .first-div-vip {
+        display:flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .first-div-vip div img{
+        height: 400px;
+        object-fit: cover;
+         }
+        
+    
+         .vipformulario{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding:10px;
+            min-height: 80vh;
+            background-color: #005064;
+            background-image: linear-gradient(to bottom, #005064, #238ed6);
+            color: white;
+        }
+        
+        .vipformulario div{
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline;
+            gap: 30px;
+            width: 100%;
+            
+        }
+        
+        .formulario-des div{
+            width: 100%;
+            gap: initial;
+        }
+        
+
+}
+
+@media (max-width:674px){
+    .search{
+        margin-right: 4%;
+        margin-left: 4%;
+        justify-content: center;
+        border-radius: 5px;
+        position: relative;
+        bottom: 10vh;
+        background-color: white;
+        padding: 3vh;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        background-color: #026680;
+        color: white;
+        align-items: center;
+         
+        
+    }
+    .section-search{
+        .search{
+            .search-1{
+                .vuelta{
+                    width: 100%;
+                }
+                .ida{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+    
+    .main-vip{
+        .first-div-vip{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+    }
+    .ida{
+        width: 100%;
+    }
+
+    .vuelta{
+        width: 100%;
+    }
+    .millas{
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    .search-1 {
+        display: flex;
+        flex-direction: column;
+
+        
+        
+    }
+    
+    .search-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-contact img{
+        display: none;
+    }
+    .box-contact{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width:568px){
+    .first-iframe-video{
+        width: 400;
+    }
+    
+    .footer div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+@media (max-width:470px){
+    .nav{
+        padding: 0px;
+        .nav-list{
+            padding: 0px;
+            gap: 15px;
+        }
+    }
+    header nav h1{
+        display:none;
+    }
+    header nav{
+        padding: 0;
+        padding-inline: 0;
+        gap: 1px;
+    }
+    .millas{
+        font-size: 2.4vh;
+    }
+}
+

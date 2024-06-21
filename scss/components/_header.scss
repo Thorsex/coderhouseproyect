@@ -1,0 +1,37 @@
+.nav-h1{
+    font-size: 38px;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    align-items: baseline;
+    & a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.nav{
+    background-color: $color-principal;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    text-align: center;
+    justify-content: space-between;
+    /*RECUERDA QUE VA AQUI border:blue;*/
+    padding-inline: 50px;
+    .nav-list{
+        display: flex;
+        gap: $gap;
+        font-size: $font-size-title;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: white;
+        align-items: center;
+    }
+}
+
+

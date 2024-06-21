@@ -1,0 +1,45 @@
+$color-principal: #004557;
+$color-secundario: #00C8F8;
+$font-size-title:20px;
+$font-size-input:28px;
+$border-main:solid;
+$gap:30px;
+
+/*Reset de css*/
+*{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+/*Cosas generales*/
+input{
+   font-size: $font-size-input;
+}
+
+select{
+   font-size: $font-size-input;
+}
+
+textarea{
+    font-size: $font-size-input;
+    width: 100%;
+}
+
+h6,h5,h4,h3,h2{
+    font-size: $font-size-title;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+.main-myflight{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color-principal;
+    background-image: linear-gradient(to bottom, #005064, #027ed1);
+    border-style: solid;
+    border-color: grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    height: 90vh;
+    color: white;
+    gap: 20px;
+    .input-myflight{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        & div{
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            width: 100%;
+            & input{
+                height: 50px;
+            }
+            & button{
+                width: 100%;
+                border-radius: initial;
+            }
+        }
+    }
+}

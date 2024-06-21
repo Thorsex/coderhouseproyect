@@ -1,0 +1,44 @@
+.contact{
+    padding-inline: 10%;
+    padding-block: 10vh;
+    background-color: $color-principal;
+    border-style: solid;
+    border-color: grey;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    border-color: grey;
+
+    .box-contact{
+        background-color: #ffffff;
+        display: grid;
+        grid-template-columns:  1fr;
+        justify-content: center;
+        padding: 50px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        width: 100%;
+        color: $color-principal;
+        text-align: center;
+    }
+
+    .form-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 3px;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        & input,&textarea{
+            height: 60px;
+            width: 100%;
+        }
+        & button{
+            align-items: center;
+        }
+    }
+}

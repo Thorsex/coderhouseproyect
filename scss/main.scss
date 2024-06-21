@@ -1,0 +1,23 @@
+/*Reset css*/
+@import "./-base.scss";
+
+
+/*COMPONENTES*/
+@import "./components/header";
+@import "./components/button";
+@import "./components/publicidad";
+@import "./components/-search.scss";
+@import "./components/-sitios.scss";
+@import "./components/iframe";
+@import "./components/contact";
+@import "./components/footer";
+
+
+/*ESTILOS DE LAS PAGES*/
+@import "./pages/myflight";
+@import "../scss/pages/vip";
+@import "./pages/vip-formulario";
+
+
+/*MEDIAQUERIES*/
+@import "./components/mediaqueries"

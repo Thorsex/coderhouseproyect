@@ -1,0 +1,30 @@
+.iframe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: $color-principal;
+
+    .iframe-text{
+        border-style: solid;
+        border-radius: 15px;
+        border-color: white;
+        background-color: #ffffff;
+        margin-inline: 100px;
+    }
+    
+    .iframe-map{
+        height: 400px;
+    }
+    
+    .first-iframe-video{
+        height: 400px;
+    }
+    
+    .second-iframe-video{
+        height: 400px;
+    
+    }
+}

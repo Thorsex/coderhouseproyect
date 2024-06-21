@@ -34,7 +34,6 @@ li a{
     text-decoration: none;
     color: white;
     align-items: center;
-    
 }
 
 h1 a {
@@ -105,7 +104,7 @@ header nav ul{
 
 /*Section publicidad*/
 
-.seccion-image{
+.publicidad{
     height: 100vh;
     background-image: url('../img/pexels-francesco-ungaro-1525041.jpg');
     background-size: cover;
@@ -116,7 +115,7 @@ header nav ul{
     height: 40vh;
     position: relative;
 }
-.seccion-publicidad {
+.publicidad-div{
     background-image: url(../img/pexels-francesco-ungaro-1525041.jpg);
     background-size: cover;
     display: flex;
@@ -139,17 +138,17 @@ header nav ul{
 }
 
 
-.seccion-publicidad h3{
+.publicidad-div h3{
     font-size: 100px;
 }
 
 
 
-.seccion-publicidad h2{
+.publicidad-div h2{
     font-size: 70px;
 }
 
-.seccion-publicidad p{
+.publicidad-div p{
     font-size: 50px;
 }
 
@@ -251,7 +250,7 @@ header nav ul{
 
 
 
-.sea{
+.section-search{
     background-color: #005064;
     border-bottom-style: solid;
     border-color: gray;
@@ -301,7 +300,7 @@ header nav ul{
 
 /*Seccion 3*/
 
-.publi-one{
+.sitios{
     height: auto;
     width: 100%;
     
@@ -312,7 +311,7 @@ header nav ul{
     width: 100%;
 }
 
-.tres{
+.sitios-div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -331,7 +330,6 @@ header nav ul{
     border-radius: 15px;
     
     text-align: center;
-    border-radius:;
     border-color:  #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -388,10 +386,6 @@ header nav ul{
     padding: 3px;
     
     border-radius: 15px;
-}
-
-.mover-h2{
-    
 }
 
 
@@ -555,12 +549,6 @@ footer div{
     border-radius: initial;
 }
 
-.text-myflight{
-   
-    
-    
-}
-
 
 /*VIP*/
 
@@ -639,11 +627,6 @@ footer div{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-
-
-.first-vip-text{
-    
-}
 
 
 
