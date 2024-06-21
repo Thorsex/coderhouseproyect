@@ -5,6 +5,36 @@ $font-size-input:28px;
 $border-main:solid;
 $gap:30px;
 
+
+@mixin flex($justify:center){
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
+@mixin grid($numbercolumns:1fr 1fr, $numberrows:1fr 1fr){
+    display: grid;
+    grid-template-columns: $numbercolumns;
+    grid-template-rows: $numberrows;
+    height: 100%;
+    width: 100%;
+}
+@mixin button($fontsize:20px){
+    background-color: $color-principal;
+    border-style: solid;
+    border-radius: 15px;
+    font-size: $fontsize;
+    &:hover{
+        background-color: $color-secundario;
+    }
+}
+@mixin responsive($wrap:wrap){
+    display: flex;
+    flex-wrap: $wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /*Reset de css*/
 *{
     font-family: "Playfair Display", serif;
