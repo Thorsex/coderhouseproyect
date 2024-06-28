@@ -142,15 +142,18 @@ button:hover {
   justify-content: center;
   width: 100%;
 }
+.section-search .search .search-1 div {
+  width: 100%;
+}
 .section-search .search .search-1 .ida {
   font-size: 2.5vh;
-  width: 43.7vw;
+  width: 100%;
   height: 100%;
   background-color: white;
 }
 .section-search .search .search-1 .vuelta {
   font-size: 2.5vh;
-  width: 43.7vw;
+  width: 100%;
   height: 50px;
   background-color: white;
 }
@@ -369,11 +372,15 @@ button:hover {
   align-items: center;
 }
 
-.footer {
+footer {
   background-color: #00C8F8;
   color: white;
 }
-.footer div {
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -645,6 +652,10 @@ button:hover {
   .box-contact {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+  }
+  .contact .box-contact {
+    padding: 20px;
   }
 }
 @media (max-width: 568px) {

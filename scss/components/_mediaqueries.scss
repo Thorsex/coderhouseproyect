@@ -48,6 +48,7 @@
     .iframe{
         .iframe-text{
             margin-inline: 0px;
+
         }
     }
 
@@ -179,8 +180,13 @@
     .box-contact{
         display: flex;
         flex-direction: column;
+        padding: 20px;
     }
-    
+    .contact{
+        .box-contact{
+            padding: 20px;
+        }
+    }
 }
 
 @media (max-width:568px){
