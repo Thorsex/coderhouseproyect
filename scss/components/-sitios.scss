@@ -6,13 +6,14 @@
     text-align: center;
     height: auto;
     width: 100%;
+    
     & img{
         width: 100%;
     }
     .mover-h2{
-        font-size:40px;
         position: relative;
-        bottom: 60px;
+        bottom: 20px;
+        font-size:40px;
     }
     .sitios-div{
         display: grid;
