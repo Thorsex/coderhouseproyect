@@ -714,6 +714,10 @@ footer div {
     color: white;
     align-items: center;
   }
+  .section-search .search .search-2 button {
+    width: 100%;
+    height: 50px;
+  }
   .section-search .search .search-2 input {
     font-size: 20px;
     height: 50px;
