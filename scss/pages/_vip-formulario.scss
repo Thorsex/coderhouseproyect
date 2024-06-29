@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding:30px;
+    padding:100px;
     min-height: 80vh;
     background-color: $color-principal;
     background-image: linear-gradient(to bottom, #005064, #238ed6);
@@ -12,9 +12,12 @@
     & div{
         display: flex;
         flex-direction: column;
-        justify-content: baseline;
+        justify-content: center;
         gap: 30px;
         width: 100%;
+        h3{
+            text-align: center;
+        }
     }
     .formulario-des div{
         width: 100%;

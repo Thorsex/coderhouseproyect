@@ -12,15 +12,17 @@
 
 /*Cosas generales*/
 input {
-  font-size: 28px;
+  font-size: 20px;
+  height: 50px;
 }
 
 select {
-  font-size: 28px;
+  font-size: 20px;
+  height: 50px;
 }
 
 textarea {
-  font-size: 28px;
+  font-size: 20px;
   width: 100%;
 }
 
@@ -146,13 +148,13 @@ button:hover {
   width: 100%;
 }
 .section-search .search .search-1 .ida {
-  font-size: 28px;
+  font-size: 20px;
   width: 100%;
   height: 100%;
   background-color: white;
 }
 .section-search .search .search-1 .vuelta {
-  font-size: 28px;
+  font-size: 20px;
   width: 100%;
   height: 50px;
   background-color: white;
@@ -167,10 +169,12 @@ button:hover {
   height: 100%;
   padding: 0px;
   padding-inline: 20px;
+  height: 50px;
 }
 .section-search .search .search-2 input {
   width: 100%;
   height: 100%;
+  height: 50px;
 }
 .section-search .search-box {
   display: flex;
@@ -491,7 +495,7 @@ footer div {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding: 30px;
+  padding: 100px;
   min-height: 80vh;
   background-color: #004557;
   background-image: linear-gradient(to bottom, #005064, #238ed6);
@@ -500,9 +504,12 @@ footer div {
 .vipformulario div {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
+  justify-content: center;
   gap: 30px;
   width: 100%;
+}
+.vipformulario div h3 {
+  text-align: center;
 }
 .vipformulario .formulario-des div {
   width: 100%;
@@ -619,12 +626,18 @@ footer div {
     color: white;
     align-items: center;
   }
+  .section-search .search .search-2 input {
+    font-size: 20px;
+    height: 50px;
+  }
   .section-search .search .search-1 .vuelta {
     width: 100%;
+    font-size: 20px;
   }
   .section-search .search .search-1 .ida {
     width: 100%;
     height: 50px;
+    font-size: 20px;
   }
   .main-vip .first-div-vip {
     display: flex;

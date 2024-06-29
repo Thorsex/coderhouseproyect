@@ -1,7 +1,7 @@
 $color-principal: #004557;
 $color-secundario: #00C8F8;
 $font-size-title:20px;
-$font-size-input:28px;
+$font-size-input:20px;
 $border-main:solid;
 $gap:30px;
 
@@ -49,10 +49,12 @@ $gap:30px;
 /*Cosas generales*/
 input{
    font-size: $font-size-input;
+   height: 50px;
 }
 
 select{
    font-size: $font-size-input;
+   height: 50px;
 }
 
 textarea{
