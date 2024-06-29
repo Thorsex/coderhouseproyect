@@ -42,3 +42,21 @@
         }
     }
 }
+
+.box-vip{
+    z-index: 20;
+    a{
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    color: #00e2ff;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    
+}

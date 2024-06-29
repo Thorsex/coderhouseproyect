@@ -376,6 +376,23 @@ button:hover {
   align-items: center;
 }
 
+.box-vip {
+  z-index: 20;
+  color: #00e2ff;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.box-vip a {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+.box-vip a img {
+  width: 70px;
+  height: 70px;
+}
+
 footer {
   background-color: #00C8F8;
   color: white;
@@ -606,6 +623,9 @@ footer div {
   .formulario-des div {
     width: 100%;
     gap: initial;
+  }
+  .box-vip {
+    display: none;
   }
 }
 @media (max-width: 674px) {
