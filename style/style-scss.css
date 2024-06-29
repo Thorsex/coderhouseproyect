@@ -48,7 +48,7 @@ ul, ol {
 }
 
 .nav {
-  background-color: #004a5d;
+  background-color: #07343e;
   display: flex;
   align-items: center;
   padding: 1%;
@@ -72,17 +72,17 @@ ul, ol {
 }
 
 button {
-  display: inline-block;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  background-color: #00C8F8;
-  color: white;
+  background: linear-gradient(to bottom, #f0f0f5, #d1d1d6);
   border: none;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  color: #333;
   cursor: pointer;
   font-size: 16px;
-  width: 150px;
-  border-radius: 15px;
+  padding: 12px 24px;
+  position: relative;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
 }
 button:hover {
   background-color: #ffca28;
@@ -120,7 +120,7 @@ button:hover {
 }
 
 .section-search {
-  background-color: #004a5d;
+  background-color: #0c5669;
   border-bottom-style: solid;
   border-color: gray;
   border-width: 2px;
@@ -135,7 +135,7 @@ button:hover {
   bottom: 10vh;
   padding: 3vh;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  background-color: #004a5d;
+  background-color: #07343e;
   color: white;
   align-items: center;
 }
@@ -192,15 +192,14 @@ button:hover {
 }
 .section-search .search-box div a {
   display: flex;
-  flex-wrap: wrap;
   text-decoration: none;
   color: white;
   padding: 10px;
 }
-.section-search .search-box div a:hover {
-  background-color: #027ed1;
-  color: #ffffff;
-  border-style: solid;
+.section-search .search-box div a button {
+  display: flex;
+  width: 220px;
+  justify-content: center;
 }
 .section-search .search-box .search-box-item {
   flex-shrink: 0;
@@ -241,7 +240,7 @@ button:hover {
 }
 
 .sitios {
-  background-color: #004a5d;
+  background-color: #0c5669;
   color: white;
   padding-inline: 5%;
   padding-block: 13%;
@@ -314,7 +313,7 @@ button:hover {
   text-align: center;
   gap: 50px;
   padding: 50px;
-  background-color: #004a5d;
+  background-color: #0c5669;
 }
 .iframe .iframe-text {
   border-style: solid;
@@ -336,7 +335,7 @@ button:hover {
 .contact {
   padding-inline: 10%;
   padding-block: 10vh;
-  background-color: #004a5d;
+  background-color: #0c5669;
   border-style: solid;
   border-color: grey;
   border-left: none;
@@ -356,7 +355,7 @@ button:hover {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   width: 100%;
-  color: #004a5d;
+  color: #0c5669;
   text-align: center;
 }
 .contact .form-contact {
@@ -412,7 +411,7 @@ footer div {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  background-color: #004a5d;
+  background-color: #0c5669;
   background-image: linear-gradient(to bottom, #005064, #027ed1);
   border-style: solid;
   border-color: grey;
@@ -447,7 +446,7 @@ footer div {
 
 .main-vip {
   padding: 40px;
-  background-color: #004a5d;
+  background-color: #0c5669;
   background-image: linear-gradient(to bottom, #005064, #238ed6);
   color: white;
   text-align: center;
@@ -476,34 +475,35 @@ footer div {
   gap: 20px;
 }
 .main-vip .vip-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: inline-block;
-  background-color: initial;
-  color: initial;
-  border: initial;
-  padding: initial;
-  display: inline-block;
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: #ffca28;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  background: initial;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  display: inline-block !important;
+  background-color: initial !important;
+  color: initial !important;
+  border: initial !important;
+  padding: initial !important;
+  display: inline-block !important;
+  padding: 12px 24px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+  background-color: #ffca28 !important;
+  border: none !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
 }
 .main-vip .vip-button:hover {
-  background-color: #fce08e;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fce08e !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2) !important;
 }
 .main-vip .vip-button:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(0) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 .vipformulario {
@@ -514,7 +514,7 @@ footer div {
   gap: 40px;
   padding: 100px;
   min-height: 80vh;
-  background-color: #004a5d;
+  background-color: #0c5669;
   background-image: linear-gradient(to bottom, #005064, #238ed6);
   color: white;
 }
@@ -543,16 +543,16 @@ footer div {
   padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: start;
 }
 .main-box div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 .main-box div p {
-  background-color: white;
+  background-color: #d8d7d7;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 15px;
@@ -563,7 +563,7 @@ footer div {
   width: 100%;
   height: 100%;
   color: white;
-  background-color: #004a5d;
+  background-color: #3e281f;
 }
 .main-box div img {
   max-width: 100%;
@@ -573,11 +573,40 @@ footer div {
   border-top-right-radius: 15px;
 }
 
+.secondary-box {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.secondary-box .one-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.secondary-box .one-box h3 {
+  background-color: #3e281f;
+  color: white;
+}
+
 .antes-de-viajar {
-  background-color: #abcef3;
+  background-color: #0c5669;
 }
 
 /*MEDIAQUERIES*/
+@media (max-width: 1126px) {
+  .section-search .search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-search .search-box .search-box-item {
+    display: none;
+  }
+}
 @media (max-width: 804px) {
   .sitios .sitios-div {
     display: flex;

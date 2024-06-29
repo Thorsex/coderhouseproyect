@@ -13,7 +13,7 @@
         bottom: 10vh;
         padding: 3vh;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-        background-color: $color-principal;
+        background-color: #07343e;
         color: white;
         align-items: center;
         .search-1{
@@ -69,14 +69,13 @@
             gap: 10px;
             & a{
                 display: flex;
-                flex-wrap: wrap;
                 text-decoration: none;
                 color: white;
-                padding: 10px;  
-                &:hover {
-                    background-color: #027ed1; 
-                        color: #ffffff;
-                        border-style: solid;
+                padding: 10px;
+                button{
+                    display: flex;
+                    width: 220px;
+                    justify-content: center;
                 }
             }
         }

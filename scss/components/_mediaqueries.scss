@@ -1,4 +1,18 @@
 
+@media (max-width:1126px){
+    .section-search{
+        .search-box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .search-box-item{
+                display: none;
+            }
+        }
+    }
+}
+
 @media (max-width:804px){
     .sitios{
         .sitios-div{

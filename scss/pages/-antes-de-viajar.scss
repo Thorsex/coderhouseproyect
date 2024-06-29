@@ -3,15 +3,15 @@
     padding: 20px;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: start;
     
     div{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         p{
-            background-color: white;
+            background-color: #d8d7d7;
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
             padding: 15px;
@@ -22,18 +22,34 @@
             width: 100%;
             height: 100%;
             color: white;
-            background-color: $color-principal;
+            background-color: #3e281f;
         }
         img{
             max-width: 100%;
             width: 100%;
             height: auto;
             border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            
+            border-top-right-radius: 15px;        
+        }
+    }
+}
+.secondary-box{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    .one-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        h3{
+            background-color: #3e281f;
+            color: white;
         }
     }
 }
 .antes-de-viajar{
-    background-color: #073743;
+    background-color: #0c5669;
 }

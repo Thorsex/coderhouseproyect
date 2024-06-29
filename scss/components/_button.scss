@@ -1,15 +1,15 @@
 button{
-    display: inline-block;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    background-color: $color-secundario;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    width: 150px;
-    border-radius: 15px;
+                background: linear-gradient(to bottom, #f0f0f5, #d1d1d6);
+                border: none;
+                border-radius: 12px;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+                color: #333;
+                cursor: pointer;
+                font-size: 16px;
+                padding: 12px 24px;
+                position: relative;
+                transition: all 0.3s ease;
+                text-transform: uppercase;
 
         &:hover{
             background-color: #ffca28;
