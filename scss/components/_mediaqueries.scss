@@ -48,7 +48,6 @@
     .iframe{
         .iframe-text{
             margin-inline: 0px;
-
         }
     }
 
@@ -64,7 +63,6 @@
     .input-myflight div {
         display: flex ;
         flex-direction: column ;
-    
     }
 
 
@@ -109,6 +107,13 @@
 }
 
 @media (max-width:674px){
+    .contact{
+        .form-contact{
+            input{
+                font-size: 20px;
+            }
+        }
+    }
     .search{
         margin-right: 4%;
         margin-left: 4%;
@@ -163,10 +168,7 @@
     
     .search-1 {
         display: flex;
-        flex-direction: column;
-
-        
-        
+        flex-direction: column;  
     }
     
     .search-2 {
@@ -203,6 +205,17 @@
 
 
 @media (max-width:470px){
+    .main-myflight{
+        .input-myflight{
+            & div{
+                & input{
+                    height: 50px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
     .nav{
         padding: 0px;
         .nav-list{
