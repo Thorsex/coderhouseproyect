@@ -538,63 +538,6 @@ footer div {
   align-items: center;
 }
 
-.main-box {
-  gap: 20px;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-}
-.main-box div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-}
-.main-box div p {
-  background-color: #d8d7d7;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  padding: 15px;
-}
-.main-box div h3 {
-  font-size: 28px;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  color: white;
-  background-color: #3e281f;
-}
-.main-box div img {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.secondary-box {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-}
-.secondary-box .one-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
-}
-.secondary-box .one-box h3 {
-  background-color: #3e281f;
-  color: white;
-}
-
-.antes-de-viajar {
-  background-color: #0c5669;
-}
-
 /*MEDIAQUERIES*/
 @media (max-width: 1126px) {
   .section-search .search-box {
